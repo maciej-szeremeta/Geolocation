@@ -31,7 +31,7 @@ export function Map() {
   } 
 
   return (
-    <div className={styles.map}>
+    <div className="map">
       <MapContainer
         center={[ position.lat, position.lng, ]}
         zoom={13}
@@ -48,5 +48,4 @@ export function Map() {
       </MapContainer>
     </div>
   );
-  
 };
